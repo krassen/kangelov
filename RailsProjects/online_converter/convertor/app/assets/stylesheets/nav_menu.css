@@ -1,0 +1,73 @@
+/* Navigation menu */
+
+.nav {
+	background-color: #000;
+	border: 1px solid #000;
+	font-size: 20px;
+	overflow: hidden;
+	padding: 0px 10% 0px 10%;
+	width: 80%;
+}
+
+ul.nav_menu {
+	color: white;
+	display: inline;
+	list-style-type: none;
+	padding: 0px;
+}
+
+ul.pull-right {
+	float: right;
+	font-size: 17px;
+	margin: 0px;
+	padding-top: 2px;
+}
+
+ul.nav_menu a {
+	color: #fff;
+	display: block;
+	margin: 0px;
+	padding: 1vw;
+	text-decoration: none;
+}
+
+ul.nav_menu a:hover {
+	background-image: url("/assets/bg_menu.jpg");
+	color: black;
+}
+
+ul.nav_menu .current_page_item a{
+	background-color: #000;
+	border-bottom: 2px solid #999;
+	color: #999;
+	text-decoration: none;
+}
+
+ul.nav_menu li {
+	display: inline-block;
+}
+
+@font-face {
+    font-family: Corbert;
+    src: url('/assets/Corbert-Regular.otf'); format("opentype");
+}
+
+/*
+	converter nav
+*/
+
+.data-converter-type-navigation {
+	background: #222;
+	border-radius: 0px 6px 0px 9px;
+	border: solid 1px white;
+	font-size: 2vmax;
+	margin-right: 15px;
+	padding: 3px 15px;
+	text-decoration: none;
+	color: #ff6600;
+}
+
+.data-converter-type-navigation:hover{
+	color: #ff6600;
+	background-color: black;
+}

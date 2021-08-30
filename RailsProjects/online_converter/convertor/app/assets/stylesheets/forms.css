@@ -1,0 +1,47 @@
+/* Forms */
+
+.form {
+	background-color: #444;
+	border-radius: 20px 20px 0px 0px;
+	border: 3px solid black;
+	margin: 0px auto;
+	max-width: 600px;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.form * {
+	margin: 0px auto;
+	padding: 1.7px;
+}
+
+.form form input[type="submit"] {
+	background: linear-gradient(to bottom, #ff6600, #222);
+	border-radius: 40px;
+	color: white;
+	margin: 7px auto;
+	padding: 6px;
+	width: 60%;
+}
+
+.form form input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #ff6600, #111);
+}
+
+.form form * {
+	display: block;
+}
+
+.form form input {
+	text-align: center;
+	width: 80%;
+}
+
+.form .form-title {
+	background-color: black;
+	border-radius: 10px 10px 0px 0px;
+	color: #ff6600;
+	font-size: x-large;
+	text-align: center;
+}

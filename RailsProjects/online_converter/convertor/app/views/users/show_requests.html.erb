@@ -1,0 +1,14 @@
+<center>
+	<div class="table_title">Requests</div>
+	<div class="clear_button_class"><button type="clear_button"><%= link_to "Clear", clear_errors_requests_path, method: :delete %></button></div>
+	<table border="1" class="request_show_table">
+		<tr class="table_header">
+			<th>Source url</th>
+			<th>Convert to</th>
+			<th>Date created</th>
+			<th>Status</th>	
+			<th colspan="2">Action</th>
+		</tr>
+		<%= render @user.requests.all %>
+	</table>
+</center>

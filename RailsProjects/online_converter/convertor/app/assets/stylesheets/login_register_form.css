@@ -1,0 +1,52 @@
+/* Login register forms */
+
+.login-register-form {
+	background-color: #444;
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid black;
+	margin: 0px auto;
+	max-width: 400px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.login-register-form .form-title {
+	background-color: black;
+	border-radius: 10px 10px 0px 0px;
+	font-size: xx-large;
+	color: #ff6600;
+}
+
+.login-register-form * {
+	margin: 0px auto;
+	padding: 2px;
+}
+
+.login-register-form .form-title input {
+	margin: 0px;
+	padding: 0px;
+}
+
+.login-register-form form input[type="submit"] {
+	background: linear-gradient(to bottom, #ff6600, #222);
+	border-radius: 10px;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.login-register-form form input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #ff6600, #111);
+}
+
+.login-register-form .field_with_errors {
+	display:inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.login-register-form .field_with_errors label {
+	color: red;
+}
