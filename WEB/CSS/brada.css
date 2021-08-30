@@ -1,0 +1,20 @@
+body
+{
+	background-color: #ccc;
+	background-image: url('kartinka/vid.png');
+	background-repeat: no-repeat; /* moje i s repeat-x, repeat-y */
+	background-attachment: fixed; /*moje i sys scroll; ako iskame kartinkata da ni ostane pri mestene na stranicata*/ 
+	background-position: top left; /* bottom right; */ /* 100px 300px; */ /* 50% 10%; */ /* 3сm 5сm; */ /*50% 10px; */ /* center 10px; */  
+	/*izpolzwaite ili dolniq red ili gornite 5 */
+	background: #ccc url('kartinka/vid.png') no-repeat fixed top left;
+}
+
+p
+{
+	color: rgb(100, 11, 255);
+}
+
+h1
+{
+	color: #9c00ff;
+}

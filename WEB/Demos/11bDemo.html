@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid green;
+				border-collapse: collapse;
+			}
+			
+			thead {
+				background-color: green;
+				color: white;
+				font-size: 1.2em;
+			}			
+			
+			th, td {
+				width: 250px;
+				text-align: left;
+				vertical-align: top;
+				height: 50px;
+			}
+			
+			.uppercase {
+				text-transform: uppercase;
+			}
+			
+			th {
+				border-color: black;
+				text-align: center;
+			}
+			
+			.alt  {
+				background-color: gray;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<caption class="uppercase">About</caption>
+			<thead class="uppercase">
+				<tr>
+					<th>Company</th>
+					<th>Country</th>
+					<th>Occupation</th>					
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Microsoft</td>
+					<td>USA</td>
+					<td>IT</td>
+				</tr>
+				<tr class="alt">
+					<td>Telerik</td>
+					<td>Bulgaria</td>
+					<td>IT</td>
+				</tr>
+				<tr>
+					<td>KTB</td>
+					<td>Bulgaria</td>
+					<td>Vacation</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

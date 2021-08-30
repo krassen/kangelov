@@ -1,0 +1,122 @@
+body
+{
+	background: #fff url('kartinka/back.jpg') repeat scroll bottom left;
+}
+
+.p1
+{	
+	text-indent: 30px;
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	color: #999;
+	background: #fff;
+	border: 1px solid #999;
+	padding: 10px;
+	line-height: 30px; /* visochinata na liiite v tekstta DOSTA POSLEZEN ATRIBUT ... micto white spacing se naricha oshte */
+	word-spacing: 5px; /* pridave na dumute raztoqnie mejdu tqh */
+	width: 500px; /* dyljina moje i s procenti : 50%; */  /* izpolzva se za div i paragrafi */
+	height: 500px; /* visochina na elementa */
+}
+
+.imager
+{
+	background: url('kartinka/vid.gif') no-repeat;
+	height: 150px; /* uvelichavame razmera ni div-va za da se vidi katrinkata poneje pyrvonachalno div e na 0 px visochina */
+	/* moje da se postigne i s: padding-bottom: 150px; no heigth ni vurshi po-dobra rabota */
+}
+
+.texter
+{
+	background: #fbfbfb;
+	border: 3px solid #c0c0c0;
+	color: #999;
+	padding: 10px; /* padding priema samo polojitelni stojnosti */
+	margin: -150px 400px 0px 250px; /* magrin moje da sydyrja otricatelni stojnosti */
+	width: 500px; /* dyljina moje i s procenti : 50%; */  /* izpolzva se za div i paragrafi */
+	height: 500px; /* visochina na elementa */
+	/* dobre e da ne se smesva heigth i width s margin i padding DA ne go pravim che moje da ima greshki!!! */
+}
+
+.textera
+{
+	background: #c0c0c0;
+	border: 3px solid #909090;
+	color: #999;
+	padding: 10px;
+	margin: -367px 0px 0px 750px;
+}
+
+h1
+{
+	text-decoration: underline overline;
+	font-variant: small-caps;
+	color: #999;
+}
+
+a.goshe:link
+{
+	color: #ccc;
+	border-bottom: 1px dashed #999;
+	text-decoration: none;
+	background: #999;
+}
+
+a.goshe:visited
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+a.goshe:hover
+{
+	color: #fff;
+	background: #888;
+}
+
+a.goshe:active
+{
+	color: #ff0000;
+	background: #000;
+}
+
+span
+{
+	font-weight: bold;
+	color: #960000;
+	text-decoration: underline;
+}
+
+a:link
+{
+	color: #999;
+	border-bottom: 1px dashed #999;
+	text-decoration: none;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+
+a:hover
+{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+a:active
+{
+	color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+

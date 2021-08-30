@@ -1,0 +1,26 @@
+Можете да влизате в:
+- Home
+- Products
+- Videos
+- Razer Info
+- Contact us
+- Mice (присъства и Sidebar-a, и в Products)
+- RAZER DEATHADDER ([Products -> Mice] или просто Mice от Sidebar-a)
+
+След като изберете Products, виждате в долната част 
+разделите продукти, които се предлагат. Само за Mice съм сложил
+да препраща към друга страница с вече продукти от самия 
+раздел(Mice).
+
+След това само при RAZER DEATHADDER (първата мишка) имате 
+достъп да видите, като цъкнете върху нея, цената й, 
+slideshow, характеристики и т.н.
+
+При всички продукти е един и същ модела и вместо да направя 
+200 пъти едни и същи неща ви ги показвам само за един продукт.  
+
+Страницата за Razer DeathAdder няма <!DOCTYPE html>, понеже като го 
+сложа, на мястото на slideshow-а изписва: Fatal error: Could not 
+extract a stage height from the CSS. Traced height: 0px.   
+Интересно защо само там не работи...
+Иначе другите станици имат <!DOCTYPE html>.

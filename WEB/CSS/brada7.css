@@ -1,0 +1,55 @@
+body
+{
+	background: #fff url(http://static9.cdn.ubi.com/en-GB/images/ac3/bg-ac3-main.jpg) repeat fixed ;
+}
+
+p
+{	
+	text-indent: 30px;
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	color: #999;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+h1
+{
+	text-decoration: underline overline;
+	font-variant: small-caps;	
+	color: #999;
+}
+
+a:link /* psevdo klas link */ /* a:link e link kojto oshte nne e poseten */
+{
+	color: #999; /* smqna na cveta */
+	border-bottom: 1px dashed #999; /* ramka na botta */
+	text-decoration: none; /* bez dekoracii */
+	/* !!! za da nqmat podchertawane linkoveto ot dolu se izpolzva: text-decoration: none; */
+}
+
+a:visited  /* link kojto veche e poseten */
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+
+a:hover /* link pri kojto mishkata e na nego */
+{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+a:active /* aktiven - kogato sme kliknali vyrhu linka*/
+{
+	/* moje da ima i: text-decoration: underline */
+	/* moje i s: background-color: #ccc */
+	/* moje i s ramka: border: 30px solid #ff9933 */
+	
+	color: #ff0000;
+}
+
+
+
+
+

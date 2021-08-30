@@ -1,0 +1,102 @@
+body
+{
+	background: #fff url('kartinka/back.jpg') repeat fixed bottom left;
+}
+
+.p1
+{	
+	text-indent: 30px;
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	color: #999;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+.p2
+{	
+	text-indent: 30px;
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	color: #fff;
+	background: #000;
+	border: 2px solid red;
+}
+
+.p3
+{	
+	text-indent: 30px;
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	color: lime;
+	background: #fff;
+	border: 10px solid #000;
+}
+
+
+#head1
+{
+	text-decoration: underline overline;
+	font-variant: small-caps;	
+	color: #ffff00;
+	background: #9c00ff;
+}
+
+#head2
+{
+	text-decoration: underline overline;
+	font-variant: small-caps;	
+	color: #9c00ff;
+	background: #ffff00;
+}
+
+
+a.goshe:link
+{
+	color: red;
+	border-bottom: 1px dashed #999;
+	text-decoration: none;
+}
+
+a.goshe:visited
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+
+a.goshe:hover
+{
+	color: #999;
+	border-bottom: 10px solid purple;
+}
+
+a.goshe:active
+{
+	color: #ff0000;
+}
+
+a:link
+{
+	color: #999;
+	border-bottom: 1px dashed #999;
+	text-decoration: none;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+
+a:hover
+{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+a:active
+{
+	color: #ff0000;
+}
+
+
+

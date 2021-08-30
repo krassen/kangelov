@@ -1,0 +1,100 @@
+body
+{
+	background: #fff url('kartinka/back.jpg') repeat fixed bottom left;
+}
+
+.p1
+{	
+	text-indent: 30px;
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	color: #999;
+	background: #fff;
+	border: 1px solid #999;
+}
+
+h1
+{
+	text-decoration: underline overline;
+	font-variant: small-caps;
+	color: #999;
+}
+
+
+a.goshe:link
+{
+	color: #ccc;
+	border-bottom: 1px dashed #999;
+	text-decoration: none;
+	background: #999;
+}
+
+a.goshe:visited
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+a.goshe:hover
+{
+	color: #fff;
+	background: #888;
+}
+
+a.goshe:active
+{
+	color: #ff0000;
+	background: #000;
+}
+
+span /* izpolzva se za chast ot text */ /* blokov elemnt */
+{
+	color: #ff00ff;
+}
+
+#diver
+{
+	background: #fff;
+	color: #333;
+}
+
+span.benj /* tova benj vaji samo za spam-ma, ako e taka napisano ili ako e samo .benj veji za vsichki elementi ot klas benj */ 
+{
+	font-weight: bold;
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+a:link
+{
+	color: #999;
+	border-bottom: 1px dashed #999;
+	text-decoration: none;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+
+a:hover
+{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+a:active
+{
+	color: #ff0000;
+}
+
+
+
+
+
+
+
+
+

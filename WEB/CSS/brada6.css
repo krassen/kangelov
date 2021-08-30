@@ -1,0 +1,94 @@
+body
+{
+	background: #fff url('kartinka/back.jpg') repeat fixed bottom left;
+}
+
+p
+{	
+	text-indent: 30px; /* polence (otdrypvane na tekstta - samo na pyrviq red)*/
+	text-align: left; /* kyde da se namira tekstta */ /*moje i s: right; ili justify;(toest da seda kato blokche) */
+	text-decoration: underline; /* podèrtawane na tekstta */ /* moje i ako ne iskame nishto da pishem s: none; */
+	letter-spacing: 3px; /* raztoqnie mejdu bukvite na tekstta */
+	text-transparent: capitalize; /* uppercase; lowercase; da promenqme dali tekstta da e s glavni bukvi malki ili samo pyrvata ot vsqka dyma da e glavna bukva ili ako nne iskame da nqma s: none; */
+	
+	font: normal normal normal 16px georgia, arial, verdana, sans-serif;
+	/* ili moje da se napishe */
+	font-family: georgia, arial, verdana, sans-serif;
+	font-style: normal;
+	font-variant: normal; /* moje i sys: small-caps; */
+	font-weight: normal; /* moje i s: bold; */
+	font-size: 16px; /* moje s: 80%; ili s: 1em; davat otnositelna golemina i e dobre da gi izpolzvame */
+	
+	color: #999;
+	background: #fff;
+	
+	width: 300px; /* zadavame dyljinata na razlichni elementi */
+	
+	border-width: thick;
+	border-color: #00ffff;
+}
+
+.p1
+{
+	border-style: solid; /*obiknnovena ramka */
+	border-color: #9c00ff;
+	border-weight: thin; /* naj-tynkata ramka e: thin; sredna: medium; naj-debela s: thick; moje i s px: 5px; */
+	
+}
+
+.p2
+{
+	border-style: dotted; /* ramka na tochki */
+	/* MOJE I S: 
+	
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-bottom-style: dotted;
+	border-top-style: dotted;
+	
+	border-bottom-color: yellow;
+	border-bottom-width: 40px;
+	
+	moje i na edin red:
+	border: 7px dashed red;
+	border-left: 13px solid lime;
+	*/
+}
+
+.p3
+{
+	border-style: dashed; /* ramka na chertichki */
+}
+
+.p4
+{
+	border-style: inset; /* potymnqvae na ramkata ot gore i ot lqvo */
+}
+
+.p5
+{
+	border-style: outset; /* potymnqvae na ramkata ot dolu i ot dqsno */
+}
+
+.p6
+{
+	border-style: double; /* dve ramki */
+}
+
+.p7
+{
+	border-style: ridge; /* podobna na griive ramka */
+}
+
+.p8
+{
+	border-style: groove; /* 3D efekt na ramkata */
+}
+
+h1
+{
+	text-decoration: underline overline;
+	font-variant: small-caps;	
+	color: #999;
+	border-style: ridge;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: gray;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.container {
+				height:1000px;
+				background-color: white;
+				margin-left: 50px;
+				margin-right: 50px;
+			}
+			#heading {
+				background-color: blue;
+				height: 50px;
+				font-size: 25pt;
+			}	
+
+			#heading a {
+				color: white;
+				padding-left: 10px;
+				text-decoration: none;
+			}
+			
+			.menu {
+				margin-left: 50px;
+			}
+			.relative {
+				position:relative;
+				top: -30px;
+			}
+			
+			div.float h2 {
+				display: inline;
+			}
+			.float {
+				float:right;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="heading">
+			<div class="menu">
+				<a href="#Home">Home</a>
+				<a href="#Page">Page</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="float"> 
+				<h2>Orginal Title</h2>
+				<h2 class="relative">Another Title</h2>
+			</div>
+		</div>
+	</body>
+</html>

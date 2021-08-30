@@ -1,0 +1,15 @@
+body
+{
+	background-color: orange;
+}
+
+a:link
+{
+	color: lime;
+}
+
+a:visited
+{
+	color: yellow;
+	text-decoration: none;
+}

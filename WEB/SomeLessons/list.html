@@ -1,0 +1,126 @@
+HTML Документ
+<html>
+
+	<head>
+		<title>Името на страницата седи тук</title>
+		<meta http-equiv="Content-Type" content="text/html; charset="windows-1251" /> - този код ни е необходим, за да се вижда коректно кирилицата на страницата
+	</head>
+	
+<body bgcolor="#fbfbfb" background="kartinka.gif" alink="#00ff00" vlink="#ff00ff" link="#0000ff" text="#777777">
+Цялото видимо съдържание и текст седи тук.
+</body> 
+
+</html>
+
+Заглавия:
+<h1>Най-голямо заглавие</h1> 
+
+<h2> . . . </h2>
+<h3> . . . </h3>
+<h4> . . . </h4>
+<h5> . . . </h5>
+
+<h6>Най-малко заглавие</h6>
+
+Текст елементи
+<p>Това е параграф</p>
+<br /> нов ред
+<hr size="3px" - височина width="100%" - дължина, може и в пиксели (px) align="center/left/right" - положение noshade - цветът става плътен /> хоризонтална линия
+<pre>Текстът тук ще изглежда в страницата така както изглежда в браузъра</pre> 
+
+Форматиране на текст
+<em>На текста е наблегнато</em>
+<strong>Този текст е силно удебелен</strong>
+<code>Компютърен код</code> 
+<b>Удебелен текст</b>
+<i>Текст с курсив</i> 
+
+Връзки и картинки
+<a target="_self/_top/_blank/_parent" title="Интересен сайт за птицата албатрос" href="http://videotutorials-bg.com/">Това е линк</a>
+<a href="http://videotutorials-bg.com/"><img src="kartinka.gif" - къде се намира картинката border="0px" alt="текст, който се появява, ако картинката още не е заредила" /></a>
+<a href="mailto:carnophager@gmail.com">Send e-mail</a>
+
+<img alt="текст, който се появява, ако картинката още не е заредила" title="Заглавие на картинката" src="kartinka.gif" - къде се намира картинката 
+
+Връзки към същата страница:
+<a name="nachalo">Начало на страницата</a>
+<a href="#nachalo">Върнете се в началото на страницата</a>
+
+Неподреден списък
+<ul type="square/circle/disc">
+	<li>Едно</li>
+	<li>Две</li>
+</ul> 
+Подреден списък
+<ol start="5" type="1/A/a/I/i">
+	<li>Едно</li>
+	<li value="3">Две</li>
+	<li type="disc/circle/square/1/A/a/I/i">Три</li>
+</ol> 
+
+Таблици
+<table border="1px" bgcolor="#fbfbfb" align="left/center/right" height="100px" width="300px" cellpadding="3px" - разстояние м/у рамката и съдържанието cellspacing="3px" - разстояние м/у  клетките на таблицата>
+	<caption align="bottom/top">Заглавие</caption>
+	<tr align="right/left/center" valign="bottom/top/middle" bgcolor="orange">
+		<th>someheader</th>
+		<th>someheader</th>
+	</tr>
+	<tr>
+		<td align="right/left/center" valign="bottom/top/middle" bgcolor="#cffccc" colspan="1" - брой колони, коит да заеме клетката rowspan="1" - брой редове, които да заеме клетката>sometext</td>
+		<td>sometext</td>
+	</tr>
+</table>
+
+Фреймове
+
+<frameset cols="25%,75%" или rows="25%,75%" , като cols са колони, а rows са редове border="12px" framespacing="10px" - разстояние м/у фреймовете>
+
+  <frame name="pink" - име, за линкове, които ще бъдат отваряни в този фрейм noresize - размерът на фрейма не може да бъде променян с мишката marginheight="30px" - с колко пиксела да се отдръпне съдържанието на фрейма отгоре marginwidth="100px" - с колко пиксела да се отдръпне съдържанието на фрейма отляво src="stranica1.htm">
+  <frame src="stranica2.htm">
+  
+<noframes> - съобщение, което се появява, ако браузърът не подържа фреймове
+<body>
+Браузърът Ве античен! Сменете го сега, за да видите прекрасните ни кадри-фреймове-frames-фрейми
+</body>
+</noframes>
+
+</frameset>
+
+Forms
+<form action="http://videotutorials-bg.com/" - адрес на скрипта/програма, която ще обработи данните от формата method="post/get"> 
+
+	<input type="text" name="lastname" value="текст" size="30" - дължина в символи maxlength="50" - максимален брой символи, които могат да се напишат>
+	<input type="password" - поле за парола>
+	<input type="checkbox" checked="checked" - квадратче с отметка>
+	<input type="radio" checked="checked" - радио бутон>asdf
+	<input type="submit" - изпраща данните от формата value="изпрати">
+	<input type="reset" - изтрива въвденото от потребителя съдържание във формата value="изчисти">
+
+	<select name="selecter" size="1"> - падащо меню
+		<option value="optioner1">едно</option>
+		<option value="optioner2">две
+		<option value="optioner3" selected - тази опция ще бъде селектирана>три
+	</select>
+
+	<textarea name="Comment" rows="10" cols="30"></textarea> - голяма област за текст
+
+</form>
+
+Специални символи
+&lt; е същото като <
+&gt; е същото като >
+&#169; е същото като © 
+
+
+Други елементи
+
+<!-- Това е коментар, който не се показва на страницата -->
+
+<font face="arial" - задава шрифта color="#3399FF" - цвета size="15px" - размера>текст</font> - стилизиране на текста
+
+	
+<embed src="http://videotutorials-bg.com/stuff/Fleetwood Mac-Albatross.mp3" - къде се намира музкалният файл autostart="true/false" - да стартира ли автоматично при зареждане на страницата loop="true/false" - да се повтаря ли песента width="100px" - дължина на прозорчето height="100px" - височина на прозорчето>
+</embed> - добавяне на звук
+
+<object type="audio/mpeg" data="http://videotutorials-bg.com/stuff/Fleetwood Mac-Albatross.mp3"
+loop="true" autostart="false" width="100px" height="100px"></object> - същите атрибути и стойности като embed, само че на елемента object

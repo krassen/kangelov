@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<style>
+			body {
+				background-color: gray;
+				margin: 0;
+				padding: 0;
+			}
+			#heading a {
+				color: white;
+				text-align: center;
+				padding-left: 10px;
+				font-size: 25pt;				
+				text-decoration: none;
+				height: 100%;
+			}
+			
+			a:hover {
+				background-color: red;
+			}
+			
+			#heading {
+				width: 100%;
+				background-color: blue;
+				height: 50px;
+				vertical-align: bottom;
+				
+			}
+			
+			.container {
+				background-color: white;
+				margin-left: 50px;
+				margin-right: 50px;
+				margin-top:0px;
+				height: 1000px;
+			}
+			
+			.menu {
+				margin-left: 50px;
+			}
+			
+			.relative {
+				display:inline;
+			}
+			
+			.float {
+				float:right;
+			}
+		
+			.clearFloat {
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="heading">
+			<div class="menu">
+				<a href="#" >Home</a>
+				<a href="#Page" >Page</a>
+			</div>
+		</div>
+		<div class="container">
+			<h2 class="relative">Orginal Title</h2>
+			<h2 class="relative">Relative Title</h2>
+			
+			<div class="float">
+		
+				<a href="#Page"  class="clearFloat">Page</a>
+	
+	
+				<a href="#Page" >Page2</a>
+				<a href="#Page" >Page3</a>
+			</div>
+		</div>
+	</body>
+</html>
