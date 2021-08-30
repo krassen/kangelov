@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 405762}
+  - 114: {fileID: 11460446}
+  m_Layer: 0
+  m_Name: LevelGeneratorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &405762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11460446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b2095e0e6121f4faf7d089e743638f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileLevel: {fileID: 4900000, guid: f054a802f4acdc649a634407205ab599, type: 3}
+  field: {fileID: 122712, guid: 77645b59da107704aa81321a5669c159, type: 2}
+  wall: {fileID: 136496, guid: c9034929b4ec3164cbfaefd3cd238cbc, type: 2}
+  environment: {fileID: 129298, guid: fe21fba99f4294847b6dadeaf0600a65, type: 2}
+  spawnEnemyPoint: {fileID: 187424, guid: 35cabbe561c008040b7cfa8c5e64b632, type: 2}
+  spawnPlayerPoint: {fileID: 105150, guid: 40d0569ee4d5fcd478caed759f831fd3, type: 2}
+  enemyScatterPoint: {fileID: 161496, guid: 4312f7d76d51719428e95557181a4658, type: 2}
+  teleportEnter: {fileID: 173038, guid: 65a7ca70b32ef08419e79ff29c877dbe, type: 2}
+  teleportExit: {fileID: 171032, guid: 00be925c16ab30a4b95bef2cb5d32ed2, type: 2}
+  enemyFollowDots: {fileID: 115494, guid: 636d08d3f3333944584f93b1af44393f, type: 2}
+  foodDot: {fileID: 105794, guid: 8782cebb3a3aae84aa09ab97bced681c, type: 2}
+  foodPellet: {fileID: 195424, guid: cad778728ff4f9f4abcf773e9d6f9089, type: 2}
+  foodCherry: {fileID: 105308, guid: efcf299521165a44d9823f4673df0b8f, type: 2}
+  foodStrawberry: {fileID: 194800, guid: d2ea8088a8790d94ea9a39deb589c813, type: 2}
+  enemyBaseDoor: {fileID: 143810, guid: f74cfd04b03ed494998aca858fc5a90c, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141902}
+  m_IsPrefabParent: 1
